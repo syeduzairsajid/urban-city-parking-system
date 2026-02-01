@@ -465,7 +465,7 @@ def main():
     lot = ParkingLot(capacity=300)
 
     while True:
-        print("=== Urban City Parking System (Upgraded Pricing) ===")
+        print("=== Urban City Parking System ===")
         print(f"Available spots: {lot.available_count()} / {lot.capacity}")
         print("1) Create Monthly Pass")
         print("2) Create Single Entry Pass")
